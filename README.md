@@ -2,6 +2,8 @@
 
 Website for the AAAI-27 Workshop on Human-Centric Agentic Mobility Services (Montréal, Canada, February 2027).
 
+Live site: https://agentic-mobility-workshop.github.io/
+
 The site is plain HTML and CSS with no build step, so it can be served directly by GitHub Pages.
 
 ## Pages
@@ -24,7 +26,7 @@ Then open http://localhost:8000 in a browser.
 1. Push this repository to GitHub.
 2. In the repository settings, open **Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**, select the `main` branch and the `/ (root)` folder, and save.
-4. The site will be available within a few minutes.
+4. Because the repository is named `agentic-mobility-workshop.github.io`, the site is served at the root of https://agentic-mobility-workshop.github.io/ within a few minutes.
 
 ## Updating content
 
