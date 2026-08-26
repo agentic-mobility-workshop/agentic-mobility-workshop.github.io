@@ -11,7 +11,7 @@ The site is plain HTML and CSS with no build step, so it can be served directly 
 - `index.html`: single page with About, Call for Papers summary, Speakers, Program, Organizing Team, Sponsors, and Contact. The navigation bar jumps to these sections.
 - `cfp.html`: full call for papers and submission instructions.
 
-Shared styles live in `assets/style.css`.
+Shared styles live in `assets/style.css`. GitHub Pages caches it for ten minutes, so after editing the stylesheet bump the `?v=` number on the stylesheet link in both HTML files to make browsers pick up the change.
 
 ## Local preview
 

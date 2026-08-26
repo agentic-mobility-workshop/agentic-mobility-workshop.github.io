@@ -2,6 +2,7 @@
 
 Photos on the site were taken from the following official pages. Replace any file in assets/people/ with a photo supplied by the person if they prefer.
 
+- Aaron Tian: photo provided by Aaron Tian
 - Aditya Mahajan: https://cim.mcgill.ca/~adityam/ (image: https://cim.mcgill.ca/~adityam/images/mahajan.jpg)
 - AJung Moon: https://mila.quebec/en/directory/ajung-moon (image: https://mila.quebec/sites/default/files/member/5202/portrait-of-ajung-moon.jpeg)
 - Alaa Khamis: https://www.alaakhamis.org/ (image: https://www.alaakhamis.org/images/AlaaKhamis.png)
