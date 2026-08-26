@@ -369,3 +369,15 @@ table.schedule tr.break td { background: #fafbfc; color: var(--muted); }
 @media (max-width: 800px) {
   .two-col { grid-template-columns: 1fr; gap: 28px; }
 }
+
+/* Photo avatars */
+.avatar { overflow: hidden; box-shadow: inset 0 0 0 1px rgba(15, 61, 99, 0.12); }
+.avatar img { box-shadow: inset 0 0 0 1px rgba(15, 61, 99, 0.12); }
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+}
+.person .avatar { width: 72px; height: 72px; }
