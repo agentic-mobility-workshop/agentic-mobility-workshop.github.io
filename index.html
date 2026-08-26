@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human-Centric Agentic Mobility Services | AAAI-27 Workshop</title>
+  <meta name="description" content="AAAI-27 Workshop on Human-Centric Agentic Mobility Services. Montréal, Canada, February 2027. Call for papers, speakers, program, and organizers.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0f3d63"/><circle cx="32" cy="24" r="8" fill="#fff"/><path d="M14 46c0-9 8-14 18-14s18 5 18 14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path d="M8 54h48" stroke="#8ab4f8" stroke-width="4" stroke-linecap="round"/></svg>
+        Agentic Mobility @ AAAI-27
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="cfp.html">Call for Papers</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="program.html">Program</a>
+        <a href="organizers.html">Organizers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">AAAI-27 Workshop</div>
+        <h1>Human-Centric Agentic Mobility Services</h1>
+        <p class="lead">Human-centered agency is the missing bridge from foundation-model agents to trustworthy mobility services.</p>
+        <div class="meta">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>February 22 or 23, 2027 (one day)</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Montréal, Canada</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Submission deadline: November 20, 2026</span>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="cfp.html">Call for Papers</a>
+          <a class="btn btn-secondary" href="#" aria-disabled="true" tabindex="-1">OpenReview (link coming soon)</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About the workshop</h2>
+        <div class="prose">
+          <p>Autonomy is the capacity to operate under internal rules without external control. Recent deployments of foundation-model agents in vehicles, fleets, and traveler-facing assistants show capabilities that autonomy alone does not entail: handling underspecified goals, engaging socially with passengers and other road users, using tools, and reasoning in ethically salient situations. These capabilities are captured by <strong>agency</strong>. Where autonomy concerns what to do and how to do it, agency concerns why to do it and what else can be done. The two are orthogonal dimensions of mobility intelligence, with distinct failure modes and evaluation requirements.</p>
+          <p>We use <strong>agentic mobility services</strong> for vehicles, fleets, infrastructure, and traveler-facing assistants that act as goal-directed, socially engaged, and accountable actors on behalf of travelers, operators, and cities. Agency is relational in a way autonomy is not. A mobility agent infers the goals of a particular traveler or operator, is trusted or distrusted by that person, and is held accountable to them when it errs. Human-centricity is therefore part of the technical specification of mobility agents.</p>
+          <p>This one-day workshop brings together the AI agents, autonomous driving, transportation, and human-AI interaction communities around a single question:</p>
+          <div class="callout">
+            <p><strong>What does it take for agentic AI to operate reliably, cooperatively, and accountably when embodied in the systems that move people?</strong></p>
+          </div>
+          <p>We welcome theoretical, algorithmic, empirical, benchmark, systems, and position contributions. The program pairs four invited talks with two poster sessions, two contributed spotlight blocks, a moderated panel, and an open roadmap discussion.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="topics">
+      <div class="container">
+        <h2 class="section-title">Topics</h2>
+        <p class="section-intro">Contributions are organized around four themes. See the <a href="cfp.html">call for papers</a> for the full list.</p>
+        <div class="card-grid">
+          <div class="card">
+            <span class="label">Theme A</span>
+            <h3>Agentic architectures for mobility</h3>
+            <p>LLM, VLM, and VLA based driving and service agents. Memory, reflection, and tool use on the vehicle and in the cloud. Grounding language and plans in perception and control. World models and levels of agenticness.</p>
+          </div>
+          <div class="card">
+            <span class="label">Theme B</span>
+            <h3>Multi-agent coordination</h3>
+            <p>Negotiation among vehicle, fleet, curbside, and traffic management agents. Multi-agent reinforcement learning and LLM-based reasoning at network scale. Orchestration of ride-hailing, transit, and logistics. Generative-agent simulation of travelers and cities.</p>
+          </div>
+          <div class="card">
+            <span class="label">Theme C</span>
+            <h3>Human-agent interaction</h3>
+            <p>Goal interpretation and negotiation in natural language. Explanation and theory of mind. Personalization and long-term memory. Driver and traveler state understanding, trust calibration, and accessibility.</p>
+          </div>
+          <div class="card">
+            <span class="label">Theme D</span>
+            <h3>Evaluation, safety, and alignment</h3>
+            <p>Benchmarks that measure mobility agency beyond driving metrics. Hallucination, goal drift, and adversarial robustness. Verification, runtime assurance, and staged rollout. Value alignment, privacy, and accountability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="dates">
+      <div class="container">
+        <h2 class="section-title">Important dates</h2>
+        <ul class="dates">
+          <li><span class="date">October 2, 2026</span><span>Call for papers released</span></li>
+          <li class="highlight"><span class="date">November 20, 2026</span><span>Submission deadline</span></li>
+          <li><span class="date">December 2, 2026</span><span>Notification of acceptance</span></li>
+          <li><span class="date">December 20, 2026</span><span>Camera-ready working notes due</span></li>
+          <li><span class="date">January 15, 2027</span><span>Final program posted</span></li>
+          <li><span class="date">February 22 or 23, 2027</span><span>Workshop at AAAI-27, Montréal <span class="note">(one day, in person, exact day to be confirmed)</span></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section alt" id="participate">
+      <div class="container">
+        <h2 class="section-title">How to participate</h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3>Submit a paper</h3>
+            <p>Research papers, position papers, benchmark and dataset papers, and systems and demonstration reports of up to 4 pages (excluding references) in AAAI-27 format. Double-blind review through OpenReview. All accepted contributions are non-archival.</p>
+            <p><a href="cfp.html">Read the call for papers</a></p>
+          </div>
+          <div class="card">
+            <h3>Attend in person</h3>
+            <p>The workshop is held in person at AAAI-27 in Montréal. No virtual presentations will be offered.</p>
+            <p><a href="program.html">See the program</a></p>
+          </div>
+          <div class="card">
+            <h3>Join the conversation</h3>
+            <p>Four invited talks, a moderated panel, mentoring-oriented poster sessions for students and junior researchers, and an open roadmap discussion. Travel support for students and authors from underrepresented groups will be announced.</p>
+            <p><a href="speakers.html">Meet the speakers</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sponsors">
+      <div class="container">
+        <h2 class="section-title">Sponsors</h2>
+        <p class="section-intro">The workshop is supported by the following sponsors.</p>
+        <ul class="sponsor-list">
+          <li>Xiaomi</li>
+          <li>Li Auto</li>
+          <li>Waabi</li>
+          <li>Bosch</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>AAAI-27 Workshop on Human-Centric Agentic Mobility Services</p>
+      <p>Contact: <a href="mailto:jiyao.wang@mcgill.ca">jiyao.wang@mcgill.ca</a> and <a href="mailto:jiangbo.yu@mcgill.ca">jiangbo.yu@mcgill.ca</a></p>
+    </div>
+  </footer>
+</body>
+</html>

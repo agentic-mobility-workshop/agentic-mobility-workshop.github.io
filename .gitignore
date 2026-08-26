@@ -1,0 +1,4 @@
+.DS_Store
+Thumbs.db
+# Internal proposal materials are not published with the site.
+*.pdf
