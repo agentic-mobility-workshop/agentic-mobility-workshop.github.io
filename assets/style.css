@@ -371,8 +371,7 @@ table.schedule tr.break td { background: #fafbfc; color: var(--muted); }
 }
 
 /* Photo avatars */
-.avatar { overflow: hidden; box-shadow: inset 0 0 0 1px rgba(15, 61, 99, 0.12); }
-.avatar img { box-shadow: inset 0 0 0 1px rgba(15, 61, 99, 0.12); }
+.avatar { overflow: hidden; box-shadow: 0 0 0 1px rgba(15, 61, 99, 0.15); }
 .avatar img {
   width: 100%;
   height: 100%;
