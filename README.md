@@ -6,11 +6,8 @@ The site is plain HTML and CSS with no build step, so it can be served directly 
 
 ## Pages
 
-- `index.html`: overview, topics, important dates, sponsors
-- `cfp.html`: call for papers and submission instructions
-- `speakers.html`: advisory chairs, invited speakers, and panelists
-- `program.html`: one-day schedule
-- `organizers.html`: organizing committee and contact
+- `index.html`: single page with About, Call for Papers summary, Speakers, Program, Organizing Team, Sponsors, and Contact. The navigation bar jumps to these sections.
+- `cfp.html`: full call for papers and submission instructions.
 
 Shared styles live in `assets/style.css`.
 
@@ -27,8 +24,8 @@ Then open http://localhost:8000 in a browser.
 1. Push this repository to GitHub.
 2. In the repository settings, open **Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**, select the `main` branch and the `/ (root)` folder, and save.
-4. The site will be available at `https://<user-or-org>.github.io/<repository>/` within a few minutes.
+4. The site will be available within a few minutes.
 
 ## Updating content
 
-Each page is self contained. To update the navigation, change the `<nav>` block in every page. Dates appear on `index.html`, `cfp.html`, and `program.html`, so update all three when a deadline changes.
+Section ids on `index.html` (`about`, `cfp`, `speakers`, `program`, `team`, `sponsors`, `contact`) are used by the navigation and by links from `cfp.html`, so keep them stable. Dates appear on both `index.html` and `cfp.html`, so update both when a deadline changes.

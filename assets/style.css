@@ -347,3 +347,25 @@ table.schedule tr.break td { background: #fafbfc; color: var(--muted); }
   table.schedule th, table.schedule td { padding: 12px 12px; }
   table.schedule td.time { width: auto; }
 }
+
+/* Single page additions */
+.subsection-title {
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin: 40px 0 8px;
+}
+.people-grid + .subsection-title, .card-grid + .subsection-title { margin-top: 40px; }
+.person h4 { font-size: 1.05rem; margin: 0 0 2px; line-height: 1.25; }
+.two-col {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 40px;
+  align-items: start;
+}
+.two-col h3 { color: var(--primary); margin-bottom: 12px; }
+.two-col .prose { max-width: none; }
+.two-col .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.section .callout { margin: 28px 0; max-width: 800px; }
+@media (max-width: 800px) {
+  .two-col { grid-template-columns: 1fr; gap: 28px; }
+}
