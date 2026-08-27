@@ -6,7 +6,7 @@
   <title>Human-Centric Agentic Mobility Services | AAAI-27 Workshop</title>
   <meta name="description" content="AAAI-27 Workshop on Human-Centric Agentic Mobility Services. Montréal, Canada, February 2027. Call for papers, speakers, program, and organizing team.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/style.css?v=3">
+  <link rel="stylesheet" href="assets/style.css?v=4">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -41,7 +41,7 @@
         </div>
         <div class="actions">
           <a class="btn btn-primary" href="cfp.html">Call for Papers</a>
-          <a class="btn btn-secondary" href="#" aria-disabled="true">OpenReview (link coming soon)</a>
+          <a class="btn btn-secondary" href="#" aria-disabled="true" tabindex="-1">OpenReview (link coming soon)</a>
         </div>
       </div>
     </section>
@@ -50,37 +50,37 @@
       <div class="container">
         <h2 class="section-title">About the workshop</h2>
         <div class="prose">
-          <p>Autonomy is the capacity to operate under internal rules without external control. Recent deployments of foundation-model agents in vehicles, fleets, and traveler-facing assistants show capabilities that autonomy alone does not entail: handling underspecified goals, engaging socially with passengers and other road users, using tools, and reasoning in ethically salient situations. These capabilities are captured by <strong>agency</strong>. Where autonomy concerns what to do and how to do it, agency concerns why to do it and what else can be done. The two are orthogonal dimensions of mobility intelligence, with distinct failure modes and evaluation requirements.</p>
-          <p>We use <strong>agentic mobility services</strong> for vehicles, fleets, infrastructure, and traveler-facing assistants that act as goal-directed, socially engaged, and accountable actors on behalf of travelers, operators, and cities. Agency is relational in a way autonomy is not. A mobility agent infers the goals of a particular traveler or operator, is trusted or distrusted by that person, and is held accountable to them when it errs. Human-centricity is therefore part of the technical specification of mobility agents.</p>
-          <p>This one-day workshop brings together the AI agents, autonomous driving, transportation, and human-AI interaction communities around a single question:</p>
+          <p>Autonomy is the capacity to operate under internal rules without external control, and the SAE driving automation levels deliberately describe vehicles as automated rather than autonomous. Recent deployments of foundation-model agents in vehicles, fleets, and traveler-facing assistants show capabilities that neither term entails: handling underspecified goals, engaging socially with passengers and other road users, using tools, and reasoning in ethically salient situations. These capabilities are captured by <strong>agency</strong>. Where automation and autonomy concern what to do and how to do it, agency concerns why to do it and what else can be done. Agency is orthogonal to that axis, with distinct failure modes and evaluation requirements.</p>
+          <p>We use <strong>agentic mobility services</strong> for vehicles, fleets, infrastructure, and traveler-facing assistants that act as goal-directed, socially engaged, and accountable actors on behalf of travelers, operators, and cities. Agency has a relational dimension that autonomy alone does not capture. A mobility agent must interpret the goals of a particular traveler or operator, earn and calibrate that person's trust, and remain accountable when errors occur. Human-centricity is therefore part of the technical specification of mobility agents.</p>
+          <p>Human-Centric Agentic Mobility Services (HAMS) is a one-day workshop that brings together the AI agents, autonomous driving, transportation, and human-AI interaction communities around a single question:</p>
           <div class="callout">
             <p><strong>What does it take for agentic AI to operate reliably, cooperatively, and accountably when embodied in the systems that move people?</strong></p>
           </div>
-          <p>We welcome theoretical, algorithmic, empirical, benchmark, systems, and position contributions. The program pairs four invited talks with two poster sessions, two contributed spotlight blocks, a moderated panel, and an open roadmap discussion.</p>
+          <p>We welcome theoretical, algorithmic, empirical, benchmark, systems, and position contributions. The program pairs eight invited talks in four themed sessions, one per topic theme, with spotlights and posters on the same themes, a moderated panel that spans the four communities, and an open roadmap discussion.</p>
         </div>
 
         <h3 class="subsection-title" id="topics">Topics</h3>
-        <p class="section-intro">Contributions are organized around four themes. See the <a href="cfp.html">call for papers</a> for the full list.</p>
+        <p class="section-intro">Contributions are organized around four themes. See the <a href="cfp.html">call for papers</a> for submission details.</p>
         <div class="card-grid">
           <div class="card">
             <span class="label">Theme A</span>
-            <h3>Agentic architectures for mobility</h3>
-            <p>LLM, VLM, and VLA based driving and service agents. Memory, reflection, and tool use on the vehicle and in the cloud. Grounding language and plans in perception and control. World models and levels of agenticness.</p>
+            <h4>Agentic vehicles and in-cabin services</h4>
+            <p>In-vehicle copilots and driving agents built on LLM, VLM, and VLA models. Multimodal context modeling and situational awareness across the cabin and the road scene. Grounding language and plans in vehicle perception and control. World models of traffic scenes. Memory, reflection, and tool use at latencies that vehicles require. Degrees of vehicle agency.</p>
           </div>
           <div class="card">
             <span class="label">Theme B</span>
-            <h3>Multi-agent coordination</h3>
-            <p>Negotiation among vehicle, fleet, curbside, and traffic management agents. Multi-agent reinforcement learning and LLM-based reasoning at network scale. Orchestration of ride-hailing, transit, and logistics. Generative-agent simulation of travelers and cities.</p>
+            <h4>Agentic fleets, transit, and traffic</h4>
+            <p>Robotaxi dispatch and rebalancing. Agentic orchestration of ride-hailing, transit, curbside, charging, and logistics. Negotiation among vehicle, infrastructure, and traffic management agents. Multi-agent reinforcement learning and LLM-based reasoning at network scale. Generative-agent simulation of travelers and cities.</p>
           </div>
           <div class="card">
             <span class="label">Theme C</span>
-            <h3>Human-agent interaction</h3>
-            <p>Goal interpretation and negotiation in natural language. Explanation and theory of mind. Personalization and long-term memory. Driver and traveler state understanding, trust calibration, and accessibility.</p>
+            <h4>Travelers, drivers, and road users</h4>
+            <p>Interpreting and negotiating trip goals in natural language. Driver and traveler state understanding. Explanation and theory of mind in the cabin. Personalization and long-term memory of traveler preferences. Trust calibration in and around automated vehicles. Accessibility. Communication with pedestrians and other road users.</p>
           </div>
           <div class="card">
             <span class="label">Theme D</span>
-            <h3>Evaluation, safety, and alignment</h3>
-            <p>Benchmarks that measure mobility agency beyond driving metrics. Hallucination, goal drift, and adversarial robustness. Verification, runtime assurance, and staged rollout. Value alignment, privacy, and accountability.</p>
+            <h4>Trustworthy deployment on real roads</h4>
+            <p>Benchmarks that measure mobility agency beyond driving metrics. Road safety consequences of hallucination, goal drift, and adversarial manipulation. Verification, runtime assurance, and staged rollout of services at city scale. Alignment with traveler and societal values. Privacy and accountability in deployed mobility services.</p>
           </div>
         </div>
       </div>
@@ -94,18 +94,18 @@
           <div class="prose">
             <h3>Submissions</h3>
             <ul>
-              <li>Three contribution types: research papers, position papers, benchmark and dataset papers, and systems and demonstration reports.</li>
+              <li>Three contribution types: (1) research papers, (2) position, benchmark, or dataset papers, and (3) systems and demonstration reports.</li>
               <li>Up to 4 pages excluding references, in the AAAI-27 author kit format.</li>
               <li>Submissions may be unpublished, in progress, concurrently submitted, or recently published work.</li>
               <li>Double-blind review through OpenReview, with at least two reviews per submission.</li>
               <li>All accepted contributions are non-archival. Working notes are posted on this site with author consent.</li>
-              <li>Most accepted papers are presented as posters, and a smaller number are selected as spotlight talks.</li>
-              <li>Authors of the strongest contributions will be invited to submit extended versions to the Elsevier journal <em>Artificial Intelligence for Transportation</em>.</li>
+              <li>Most accepted papers are presented as posters, and a smaller number are selected as spotlight talks in the themed session that matches their topic.</li>
+              <li>Authors of the strongest contributions will be invited to submit extended versions to the journal <em>Artificial Intelligence for Transportation</em>.</li>
               <li>Early-stage work, position papers, benchmark proposals, and negative results are explicitly welcome.</li>
             </ul>
             <div class="actions">
               <a class="btn btn-primary" href="cfp.html">Full call for papers</a>
-              <a class="btn btn-secondary" href="#" aria-disabled="true">OpenReview (link coming soon)</a>
+              <a class="btn btn-secondary" href="#" aria-disabled="true" tabindex="-1">OpenReview (link coming soon)</a>
             </div>
           </div>
           <div>
@@ -114,8 +114,7 @@
               <li><span class="date">October 2, 2026</span><span>Call for papers released</span></li>
               <li class="highlight"><span class="date">November 20, 2026</span><span>Submission deadline</span></li>
               <li><span class="date">December 2, 2026</span><span>Notification of acceptance</span></li>
-              <li><span class="date">December 20, 2026</span><span>Camera-ready working notes due</span></li>
-              <li><span class="date">January 15, 2027</span><span>Final program posted</span></li>
+              <li><span class="date">January 15, 2027</span><span>Talk titles and schedule posted</span></li>
               <li><span class="date">February 22 or 23, 2027</span><span>Workshop at AAAI-27, Montréal <span class="note">(one day, in person, exact day to be confirmed)</span></span></li>
             </ul>
           </div>
@@ -126,7 +125,7 @@
     <section class="section" id="speakers">
       <div class="container">
         <h2 class="section-title">Speakers</h2>
-        <p class="section-intro">The workshop features four invited talks and a moderated panel with leading researchers from AI, transportation, and human-AI interaction.</p>
+        <p class="section-intro">The workshop features eight invited talks in four themed sessions and a moderated panel with leading researchers from AI, transportation, and human-AI interaction. Invited speakers present recent advances at the frontier of the workshop themes. Panelists are chosen for their breadth across the AI agents, autonomous driving, transportation, and human-AI interaction communities.</p>
 
         <h3 class="subsection-title">Invited speakers and panelists</h3>
         <div class="people-grid">
@@ -154,7 +153,7 @@
               <h4>Zhenning Li</h4>
               <p class="affil">University of Macau</p>
               <span class="role">Speaker</span>
-              <p class="bio">Research on human-like connected and autonomous driving.</p>
+              <p class="bio">Research on human-like autonomous driving.</p>
             </div>
           </div>
           <div class="person">
@@ -164,6 +163,15 @@
               <p class="affil">University College London (UCL)</p>
               <span class="role">Speaker</span>
               <p class="bio">Research on interaction between automated vehicles and road users.</p>
+            </div>
+          </div>
+          <div class="person">
+            <div class="avatar"><img src="assets/people/raphael-frank.jpg" alt="Photo of Raphaël Frank" loading="lazy" width="72" height="72"></div>
+            <div>
+              <h4>Raphaël Frank</h4>
+              <p class="affil">University of Luxembourg</p>
+              <span class="role">Panelist</span>
+              <p class="bio">Associate Professor and Chief Scientist at SnT, and head of the 360Lab.</p>
             </div>
           </div>
           <div class="person">
@@ -179,12 +187,12 @@
         <p class="section-intro">Additional speakers and panelists will be announced.</p>
 
         <div class="callout">
-          <p><strong>Panel: "Which decisions should agents own, and who is accountable?"</strong></p>
-          <p>The moderated panel brings together system-level and policy perspectives on agentic mobility and closes the afternoon before the open roadmap discussion.</p>
+          <p><strong>Panel: "Which decisions should mobility agents own, and who is accountable?"</strong></p>
+          <p>The moderated panel leads a debate on deployment and governance that cuts across the AI agents, autonomous driving, transportation, and human-AI interaction communities, and it shapes the closing roadmap discussion.</p>
         </div>
 
         <h3 class="subsection-title">Advisory chairs</h3>
-        <p class="section-intro">Advisory chairs are senior researchers who provide scientific guidance and community reach for the workshop.</p>
+        <p class="section-intro">Advisory chairs steer the scientific scope of the workshop, advise on the review process, help recruit the program committee and speakers, chair the awards for the best contributions, and connect the workshop to their communities. They may also deliver talks.</p>
         <div class="people-grid">
           <div class="person">
             <div class="avatar"><img src="assets/people/aditya-mahajan.jpg" alt="Photo of Aditya Mahajan" loading="lazy" width="72" height="72"></div>
@@ -192,7 +200,7 @@
               <h4>Aditya Mahajan</h4>
               <p class="affil">McGill University and Mila</p>
               <span class="role">Advisory Chair</span>
-              <p class="bio">Research on stochastic control and reinforcement learning under uncertainty.</p>
+              <p class="bio">Research on stochastic control and reinforcement learning.</p>
             </div>
           </div>
           <div class="person">
@@ -201,7 +209,7 @@
               <h4>Jian Tang</h4>
               <p class="affil">HEC Montréal and Mila</p>
               <span class="role">Advisory Chair</span>
-              <p class="bio">Canada CIFAR AI Chair with research on generative models, graph machine learning, and foundation models.</p>
+              <p class="bio">Canada CIFAR AI Chair with research on graph machine learning and foundation models.</p>
             </div>
           </div>
           <div class="person">
@@ -219,7 +227,7 @@
               <h4>Peter Stone</h4>
               <p class="affil">The University of Texas at Austin and Sony AI</p>
               <span class="role">Advisory Chair</span>
-              <p class="bio">Research on reinforcement learning and multi-agent systems, including autonomous intersection management.</p>
+              <p class="bio">Research on reinforcement learning and multi-agent systems.</p>
             </div>
           </div>
           <div class="person">
@@ -228,7 +236,7 @@
               <h4>Hai Yang</h4>
               <p class="affil">The Hong Kong University of Science and Technology (HKUST)</p>
               <span class="role">Advisory Chair</span>
-              <p class="bio">Chair Professor and Editor-in-Chief of Transportation Research Part B, with research on transportation networks and economics.</p>
+              <p class="bio">Chair Professor and Editor-in-Chief of <em>Transportation Research Part B</em>.</p>
             </div>
           </div>
         </div>
@@ -238,7 +246,7 @@
     <section class="section alt" id="program">
       <div class="container">
         <h2 class="section-title">Program</h2>
-        <p class="section-intro">A one-day, in-person workshop at AAAI-27 in Montréal on February 22 or 23, 2027 (exact day to be confirmed), running from 08:45 to 17:30.</p>
+        <p class="section-intro">A one-day, in-person workshop at AAAI-27 in Montréal on February 22 or 23, 2027 (exact day to be confirmed), running from 08:45 to 17:30. The day is organized as four themed sessions of 75 minutes, one per topic theme, each pairing two invited talks with spotlights on the same theme.</p>
         <div class="table-wrap">
           <table class="schedule">
             <thead>
@@ -249,41 +257,49 @@
             </thead>
             <tbody>
               <tr>
-                <td class="time">08:45-10:20</td>
-                <td>Opening remarks. Invited Talks 1 and 2 with Q&amp;A</td>
+                <td class="time">08:45-09:00</td>
+                <td>Opening remarks</td>
               </tr>
               <tr>
-                <td class="time">10:20-12:00</td>
-                <td>Poster Session I, coffee, and Contributed Spotlights I</td>
+                <td class="time">09:00-10:15</td>
+                <td>Session I (agentic vehicles and in-cabin services): Invited Talks 1 and 2 with Q&amp;A, and themed spotlights</td>
               </tr>
               <tr class="break">
-                <td class="time">12:00-13:30</td>
+                <td class="time">10:15-10:45</td>
+                <td>Coffee and Poster Session A</td>
+              </tr>
+              <tr>
+                <td class="time">10:45-12:00</td>
+                <td>Session II (agentic fleets, transit, and traffic): Invited Talks 3 and 4 with Q&amp;A, and themed spotlights</td>
+              </tr>
+              <tr class="break">
+                <td class="time">12:00-13:15</td>
                 <td>Lunch and informal discussion clusters</td>
               </tr>
               <tr>
-                <td class="time">13:30-14:10</td>
-                <td>Invited Talk 3 with Q&amp;A</td>
+                <td class="time">13:15-14:30</td>
+                <td>Session III (travelers, drivers, and road users): Invited Talks 5 and 6 with Q&amp;A, and themed spotlights</td>
+              </tr>
+              <tr class="break">
+                <td class="time">14:30-15:00</td>
+                <td>Coffee and Poster Session B</td>
               </tr>
               <tr>
-                <td class="time">14:10-15:30</td>
-                <td>Contributed Spotlights II and Poster Session II</td>
+                <td class="time">15:00-16:15</td>
+                <td>Session IV (trustworthy deployment on real roads): Invited Talks 7 and 8 with Q&amp;A, and themed spotlights</td>
               </tr>
               <tr>
-                <td class="time">15:30-16:10</td>
-                <td>Invited Talk 4 with Q&amp;A</td>
+                <td class="time">16:15-17:05</td>
+                <td>Moderated panel: "Which decisions should mobility agents own, and who is accountable?"</td>
               </tr>
               <tr>
-                <td class="time">16:10-17:00</td>
-                <td>Moderated panel: "Which decisions should agents own, and who is accountable?"</td>
-              </tr>
-              <tr>
-                <td class="time">17:00-17:30</td>
-                <td>Open roadmap discussion, awards, and closing</td>
+                <td class="time">17:05-17:30</td>
+                <td>Open roadmap discussion, best contribution awards, and closing</td>
               </tr>
             </tbody>
           </table>
         </div>
-        <p class="section-intro">The final schedule with talk titles will be posted by January 15, 2027. The poster sessions are mentoring-oriented, giving students and junior researchers direct feedback from senior participants.</p>
+        <p class="section-intro">The final schedule with talk titles will be posted by January 15, 2027. The poster sessions have a mentoring focus and give students and junior researchers direct feedback from senior participants.</p>
         <div class="prose">
           <p>The workshop takes place at the AAAI-27 conference venue in Montréal, Canada. The workshop is in person only, and no virtual presentations will be offered, in line with AAAI-27 policy.</p>
         </div>
@@ -312,7 +328,7 @@
               <h4>Jiangbo Yu</h4>
               <p class="affil">McGill University</p>
               <span class="role">Organizer</span>
-              <p class="bio">Assistant Professor of Civil Engineering and director of the Human-Machine Transportation Systems Lab. Research on agentic transport systems, from demand forecasting and infrastructure planning to the operation of agentic mobility services.</p>
+              <p class="bio">Assistant Professor of Civil Engineering and director of the Human-Machine Transportation Systems Lab. Research on agentic transport systems, from demand forecasting to the operation of agentic mobility services.</p>
               <p class="email"><a href="mailto:jiangbo.yu@mcgill.ca">jiangbo.yu@mcgill.ca</a></p>
             </div>
           </div>
@@ -322,7 +338,7 @@
               <h4>Hongliang Lu</h4>
               <p class="affil">Southern University of Science and Technology (SUSTech)</p>
               <span class="role">Organizer</span>
-              <p class="bio">Assistant Professor of Mechanical and Energy Engineering. Research on human-like and ethical decision-making and planning for automated driving and embodied intelligence.</p>
+              <p class="bio">Assistant Professor of Mechanical and Energy Engineering. Research on human-like and ethical decision-making for automated driving and embodied intelligence.</p>
             </div>
           </div>
           <div class="person">
@@ -405,13 +421,19 @@
         });
       }
       var visible = {};
+      function update() {
+        var first = sections.filter(function (s) { return visible[s.id]; })[0];
+        var atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+        if (atBottom) { setActive(sections[sections.length - 1].id); }
+        else if (first) { setActive(first.id); }
+        else if (window.scrollY < 200) { setActive(null); }
+      }
       var observer = new IntersectionObserver(function (entries) {
         entries.forEach(function (e) { visible[e.target.id] = e.isIntersecting; });
-        var first = sections.filter(function (s) { return visible[s.id]; })[0];
-        if (first) { setActive(first.id); }
-        else if (window.scrollY < 200) { setActive(null); }
+        update();
       }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
       sections.forEach(function (s) { observer.observe(s); });
+      window.addEventListener('scroll', update, { passive: true });
     })();
   </script>
 </body>

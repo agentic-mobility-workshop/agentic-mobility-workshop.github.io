@@ -6,7 +6,7 @@
   <title>Call for Papers | Human-Centric Agentic Mobility Services, AAAI-27 Workshop</title>
   <meta name="description" content="Call for papers for the AAAI-27 Workshop on Human-Centric Agentic Mobility Services. Scope, topics of interest, submission format, review process, and important dates.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/style.css?v=3">
+  <link rel="stylesheet" href="assets/style.css?v=4">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -44,11 +44,11 @@
           <div class="callout">
             <p><strong>What does it take for agentic AI to operate reliably, cooperatively, and accountably when embodied in the systems that move people?</strong></p>
           </div>
-          <p>Submissions are expected to speak to one or more of the following sub-questions.</p>
+          <p>Submissions are expected to speak to one or more of the following questions.</p>
           <ol>
-            <li>Which agent designs hold up under the grounding, latency, and safety constraints of real vehicles?</li>
-            <li>How should mobility agents communicate, negotiate, and coordinate at fleet and network scale?</li>
-            <li>How should agents interpret human goals, sustain calibrated trust, and adapt to the people around them?</li>
+            <li>Which agent designs remain effective under the grounding, latency, and safety constraints of real vehicles?</li>
+            <li>How should mobility agents coordinate at fleet and network scales?</li>
+            <li>How should agents interpret traveler goals, sustain calibrated trust, and adapt to the drivers, passengers, and road users around them?</li>
             <li>How should agentic mobility be evaluated beyond driving metrics?</li>
           </ol>
           <p>We welcome theoretical, algorithmic, empirical, benchmark, systems, and position contributions.</p>
@@ -63,49 +63,51 @@
         <div class="card-grid">
           <div class="card">
             <span class="label">Theme A</span>
-            <h3>Agentic architectures for mobility</h3>
+            <h3>Agentic vehicles and in-cabin services</h3>
             <ul>
-              <li>LLM, VLM, and VLA based driving and service agents</li>
-              <li>Memory, reflection, and tool use on the vehicle and in the cloud</li>
-              <li>Grounding language and plans in perception and control</li>
-              <li>World models</li>
-              <li>Levels of agenticness</li>
+              <li>In-vehicle copilots and driving agents built on LLM, VLM, and VLA models</li>
+              <li>Multimodal context modeling and situational awareness across the cabin and the road scene</li>
+              <li>Grounding language and plans in vehicle perception and control</li>
+              <li>World models of traffic scenes</li>
+              <li>Memory, reflection, and tool use at latencies that vehicles require</li>
+              <li>Degrees of vehicle agency</li>
             </ul>
           </div>
           <div class="card">
             <span class="label">Theme B</span>
-            <h3>Multi-agent coordination and intelligence at system scale</h3>
+            <h3>Agentic fleets, transit, and traffic</h3>
             <ul>
-              <li>Negotiation among vehicle, fleet, curbside, and traffic management agents</li>
+              <li>Robotaxi dispatch and rebalancing</li>
+              <li>Agentic orchestration of ride-hailing, transit, curbside, charging, and logistics</li>
+              <li>Negotiation among vehicle, infrastructure, and traffic management agents</li>
               <li>Multi-agent reinforcement learning and LLM-based reasoning at network scale</li>
-              <li>Agentic orchestration of ride-hailing, transit, and logistics</li>
-              <li>Mechanism design</li>
               <li>Generative-agent simulation of travelers and cities</li>
             </ul>
           </div>
           <div class="card">
             <span class="label">Theme C</span>
-            <h3>Human-agent interaction and personalization</h3>
+            <h3>Travelers, drivers, and road users</h3>
             <ul>
-              <li>Goal interpretation and negotiation in natural language</li>
-              <li>Explanation and theory of mind</li>
-              <li>Personalization and long-term memory</li>
+              <li>Interpreting and negotiating trip goals in natural language</li>
               <li>Driver and traveler state understanding</li>
-              <li>Trust calibration</li>
+              <li>Explanation and theory of mind in the cabin</li>
+              <li>Personalization and long-term memory of traveler preferences</li>
+              <li>Trust calibration in and around automated vehicles</li>
               <li>Accessibility</li>
+              <li>Communication with pedestrians and other road users</li>
             </ul>
-            <p><strong>Key question:</strong> how should agents act when inferred goals and stated instructions conflict?</p>
+            <p><strong>Key question:</strong> how should a mobility agent act when a traveler's inferred goals and stated instructions conflict?</p>
           </div>
           <div class="card">
             <span class="label">Theme D</span>
-            <h3>Evaluation, safety, and alignment</h3>
+            <h3>Trustworthy deployment on real roads</h3>
             <ul>
               <li>Benchmarks that measure mobility agency beyond driving metrics</li>
-              <li>Hallucination, goal drift, and adversarial robustness</li>
-              <li>Verification, runtime assurance, and staged rollout</li>
-              <li>Value alignment, privacy, and accountability</li>
+              <li>Road safety consequences of hallucination, goal drift, and adversarial manipulation</li>
+              <li>Verification, runtime assurance, and staged rollout of services at city scale</li>
+              <li>Alignment with traveler and societal values</li>
+              <li>Privacy and accountability in deployed mobility services</li>
             </ul>
-            <p>Papers that surface open problems are explicitly welcome, for example which abstraction of agency is measurable independently of driving performance.</p>
           </div>
         </div>
       </div>
@@ -124,8 +126,8 @@
           <h3>Format</h3>
           <p>Submissions are limited to 4 pages excluding references and must use the AAAI-27 author kit format. Submissions may present unpublished work, work in progress, work concurrently submitted elsewhere, or recently published work.</p>
           <h3>Presentation and publication</h3>
-          <p>The workshop is non-archival. Working notes of accepted papers will be posted on the workshop website with author consent. Most accepted papers will be presented as posters, and a smaller number will be selected as spotlight talks. The poster sessions are mentoring-oriented and are designed to give students and junior researchers a supportive setting to present their work.</p>
-          <p>Authors of the strongest contributions will be invited to submit extended versions to the Elsevier journal <em>Artificial Intelligence for Transportation</em>.</p>
+          <p>The workshop is non-archival. Working notes of accepted papers will be posted on the workshop website with author consent. Most accepted papers will be presented as posters in one of two poster sessions, and a smaller number will be selected as spotlight talks in the themed session that matches their topic. The poster sessions have a mentoring focus and are designed to give students and junior researchers a supportive setting to present their work.</p>
+          <p>Authors of the strongest contributions will be invited to submit extended versions to the journal <em>Artificial Intelligence for Transportation</em>.</p>
           <p>Work at an early stage, position papers, benchmark proposals, and negative results are explicitly welcome.</p>
         </div>
       </div>
@@ -152,8 +154,7 @@
           <li><span class="date">October 2, 2026</span><span>Call for papers released</span></li>
           <li class="highlight"><span class="date">November 20, 2026</span><span>Submission deadline</span></li>
           <li><span class="date">December 2, 2026</span><span>Notification of acceptance</span></li>
-          <li><span class="date">December 20, 2026</span><span>Camera-ready working notes due</span></li>
-          <li><span class="date">January 15, 2027</span><span>Final program posted</span></li>
+          <li><span class="date">January 15, 2027</span><span>Talk titles and schedule posted</span></li>
           <li><span class="date">February 22 or 23, 2027</span><span>Workshop at AAAI-27, Montréal <span class="note">(one day, in person, exact day to be confirmed)</span></span></li>
         </ul>
       </div>
@@ -164,7 +165,7 @@
         <h2 class="section-title">Submit</h2>
         <div class="prose">
           <p>Submissions are due November 20, 2026 through OpenReview. The submission link will be posted here when it opens. Questions about scope, format, or eligibility can be sent to the organizers.</p>
-          <p>A limited number of travel and registration grants will be available for students and authors from underrepresented groups. Details will be announced.</p>
+          <p>A limited number of travel grants will be available for students and authors from underrepresented groups. Details will be announced.</p>
           <p>
             <a class="btn btn-secondary" href="#" aria-disabled="true" tabindex="-1">OpenReview (link coming soon)</a>
             <a class="btn btn-primary" href="index.html#contact">Contact the organizers</a>

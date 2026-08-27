@@ -15,6 +15,7 @@ Photos on the site were taken from the following official pages. Replace any fil
 - Jiyao Wang: https://scholar.google.com/citations?user=JnklcQwAAAAJ&hl=en (image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=JnklcQwAAAAJ&citpid=3)
 - Mark Colley: https://www.uni-ulm.de/en/in/mi/institute/staff/former-members/dr-mark-colley/ (image: https://www.uni-ulm.de/fileadmin/_processed_/b/5/csm_uu_colley_4f90d82599.webp)
 - Peter Stone: https://www.cs.utexas.edu/~pstone/ (image: https://www.cs.utexas.edu/~pstone/images/Peter_Headshot_2019.png)
+- Raphaël Frank: https://www.uni.lu/snt-en/people/raphael-frank/ (image: https://www.uni.lu/en/person-image/NTAwMDE4MDVfX1JhcGhhw6tsIEZSQU5L)
 - Tianyu Shi: https://tianyushi.org/ (image: https://tianyushi.org/images/profile.jpg)
 - Xiao Wen: https://ce.hkust.edu.hk/people/xiao-wenwenxiao (image: https://ce.hkust.edu.hk/sites/default/files/2025-03/Photo2.jpeg)
 - Zhenning Li: https://ias.um.edu.mo/2023-ias-fellows-prof-zhenning-li/ (image: https://ias.um.edu.mo/wp-content/uploads/2023/10/zhenning-li-01.png)
