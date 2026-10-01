@@ -8,7 +8,7 @@ The site is plain HTML and CSS with no build step, so it can be served directly 
 
 ## Pages
 
-- `index.html`: single page with About, Call for Papers summary, Speakers, Program, Organizing Team, Sponsors, and Contact. The navigation bar jumps to these sections.
+- `index.html`: single page with About, Call for Papers summary, Speakers, Program, Organizing Team, and Contact. The navigation bar jumps to these sections.
 - `cfp.html`: full call for papers and submission instructions.
 
 Shared styles live in `assets/style.css`. GitHub Pages caches it for ten minutes, so after editing the stylesheet bump the `?v=` number on the stylesheet link in both HTML files to make browsers pick up the change.
@@ -30,4 +30,4 @@ Then open http://localhost:8000 in a browser.
 
 ## Updating content
 
-Section ids on `index.html` (`about`, `cfp`, `speakers`, `program`, `team`, `sponsors`, `contact`) are used by the navigation and by links from `cfp.html`, so keep them stable. Dates appear on both `index.html` and `cfp.html`, so update both when a deadline changes.
+Section ids on `index.html` (`about`, `cfp`, `speakers`, `program`, `team`, `contact`) are used by the navigation and by links from `cfp.html`, so keep them stable. Dates appear on both `index.html` and `cfp.html`, so update both when a deadline changes.
