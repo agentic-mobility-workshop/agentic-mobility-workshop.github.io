@@ -6,7 +6,6 @@ Photos on the site were taken from the following official pages. Replace any fil
 - Aditya Mahajan: https://cim.mcgill.ca/~adityam/ (image: https://cim.mcgill.ca/~adityam/images/mahajan.jpg)
 - AJung Moon: https://mila.quebec/en/directory/ajung-moon (image: https://mila.quebec/sites/default/files/member/5202/portrait-of-ajung-moon.jpeg)
 - Alaa Khamis: https://www.alaakhamis.org/ (image: https://www.alaakhamis.org/images/AlaaKhamis.png)
-- Flora Salim: https://www.unsw.edu.au/staff/flora-salim (image: https://api.research.unsw.edu.au/sites/default/files/images/profile/IMG_3921_edit_2.jpeg)
 - Hai Yang: https://ce.hkust.edu.hk/people/hai-yang-yanghai (image: https://ce.hkust.edu.hk/sites/default/files/2022-10/Yang%20Hai.jpg)
 - Hongliang Lu: https://www.sustech.edu.cn/en/faculties/luhongliang.html (image: https://www.sustech.edu.cn/uploads/large/2026/07/08150826_14028.jpg)
 - Jian Tang: https://jian-tang.com/ (image: https://tangjianpku.github.io/images/jian.jpg)
