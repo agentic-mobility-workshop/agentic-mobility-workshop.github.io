@@ -12,6 +12,7 @@ Photos on the site were taken from the following official pages. Replace any fil
 - Jian Tang: https://jian-tang.com/ (image: https://tangjianpku.github.io/images/jian.jpg)
 - Jiangbo Yu: https://www.mcgill.ca/civil/jiangbo-yu (image: https://www.mcgill.ca/civil/files/civil/jiangboyu.png)
 - Jiyao Wang: https://scholar.google.com/citations?user=JnklcQwAAAAJ&hl=en (image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=JnklcQwAAAAJ&citpid=3)
+- Lu Feng: https://www.cs.virginia.edu/~lufeng/ (image: https://www.cs.virginia.edu/~lufeng/figs/lufeng-web.jpg)
 - Peter Stone: https://www.cs.utexas.edu/~pstone/ (image: https://www.cs.utexas.edu/~pstone/images/Peter_Headshot_2019.png)
 - Raphaël Frank: https://www.uni.lu/snt-en/people/raphael-frank/ (image: https://www.uni.lu/en/person-image/NTAwMDE4MDVfX1JhcGhhw6tsIEZSQU5L)
 - Tianyu Shi: https://tianyushi.org/ (image: https://tianyushi.org/images/profile.jpg)
